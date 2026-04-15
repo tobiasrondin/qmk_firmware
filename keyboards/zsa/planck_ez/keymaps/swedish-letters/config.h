@@ -12,7 +12,7 @@
   Set any config.h overrides for your specific keymap here.
   See config.h options at https://docs.qmk.fm/#/config_options?id=the-configh-file
 */
-#define UNICODE_SELECTED_MODES UC_OSX, UC_LNX, UC_WINC
+#define UNICODE_SELECTED_MODES UNICODE_MODE_MACOS, UNICODE_MODE_LINUX, UNICODE_MODE_WINCOMPOSE
 
 #define UNICODE_SONG_OSX SONG(SCROLL_LOCK_ON_SOUND)
 #define UNICODE_SONG_LNX SONG(UNICODE_LINUX)
